@@ -1,0 +1,23 @@
+.dots{
+    position: absolute;
+    padding:5px 7px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius:8px;
+    left:50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dots span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.dots span.active{
+    background-color: #f40;
+}
